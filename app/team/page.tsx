@@ -4,12 +4,12 @@ import MT from "@/components/team/MT";
 import BioAutography from "@/components/team/BioAutography";
 
 export default function Team() {
-    return (
-      <main>
-          <SpeechYDP/>
-          <MT/>
-          <Departments/>
-          <BioAutography/>
-      </main>
-    );
-  }
+  return (
+    <main className="overflow-hidden">
+      <SpeechYDP />
+      <MT />
+      <Departments />
+      <BioAutography />
+    </main>
+  );
+}
