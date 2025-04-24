@@ -11,7 +11,7 @@ const PopUpBioAutography = ({ selectedItem, onClose }: any) => {
   //generate default autobiography if it starts with "lorem"
   const autobiographyText = selectedItem.autobiography
     .toLowerCase()
-    .startsWith("lorem")
+    .startsWith("-")
     ? `Hello, welcome to our PMSUM website! My name is ${selectedItem.name}, and I am proud to serve as the ${selectedItem.position} of this organization. With my role, I am committed to contributing to the growth and success of our team, ensuring that we continue to thrive in all our endeavors.`
     : selectedItem.autobiography;
 
