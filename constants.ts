@@ -34,7 +34,7 @@ export const departmentList: Departments = [
     title: "Sports and Recreation Exco",
     description:
       "Promotes an active lifestyle by organizing sports tournaments, fitness programs, and recreational activities.",
-    imgSrc: "/image/team/exco/Exco_S&R.png",
+    imgSrc: "/image/team/exco/Exco_Sukan&Rekreasi.png",
   },
   {
     id: 5,
