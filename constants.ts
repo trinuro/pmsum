@@ -10,38 +10,45 @@ type Departments = Department[];
 export const departmentList: Departments = [
   {
     id: 1,
-    title: "Academic and Intellectual",
+    title: "Academic and Unity Exco",
     description:
-      "Organizes educational events, workshops, and discussions to enhance members’ knowledge and skills.",
-    imgSrc: "/image/team/Akademik&Intelektual.png",
+      "Focuses on academic support programs and initiatives that foster unity among students.",
+    imgSrc: "/image/team/exco/Exco_Akademik&Perpaduan.png",
   },
   {
     id: 2,
-    title: "Sponsorship, Welfare and Relations",
+    title: "Finance and Welfare Exco",
     description:
-      "Secures funding, manages partnerships, and ensures the well-being of club members and participants.",
-    imgSrc: "/image/team/Dana,Kebajikan&PerhubunganLuar.png",
+      "Manages financial resources, fundraising, and welfare programs to support students in need.",
+    imgSrc: "/image/team/exco/Exco_Dana&Kebajikan.png",
   },
   {
     id: 3,
-    title: "Media and Publicity",
+    title: "Media and Publicity Exco",
     description:
       "Handles the promotion of the club’s activities through social media, newsletters, and other communication channels.",
-    imgSrc: "/image/team/Media&Publisiti.png",
+    imgSrc: "/image/team/exco/Exco_Media&Publisiti.png",
   },
   {
     id: 4,
-    title: "Sports and Recreation",
+    title: "Sports and Recreation Exco",
     description:
-      "Plans and coordinates sports activities and recreational events to promote physical fitness and team spirit.",
-    imgSrc: "/image/team/Sukan&Rekreasi.png",
+      "Promotes an active lifestyle by organizing sports tournaments, fitness programs, and recreational activities.",
+    imgSrc: "/image/team/exco/Exco_Sukan&Rekreasi.png",
   },
   {
     id: 5,
-    title: "Art and Culture",
+    title: "Art and Culture Exco",
     description:
-      "Organizes cultural events, art exhibitions, and performances to celebrate and showcase diverse artistic talents.",
-    imgSrc: "/image/team/Kesenian&Kebudayaan.png",
+      "Organizes cultural and artistic events to promote creativity and preserve traditional heritage.",
+    imgSrc: "/image/team/exco/Exco_Kesenian&Kebudayaan.png",
+  },
+  {
+    id: 6,
+    title: "External Relations Exco",
+    description:
+      "Strengthens connections with external organizations, industries, and other institutions through networking and collaborations.",
+    imgSrc: "/image/team/exco/Exco_Perhubungan_Luar.png",
   },
 ];
 
@@ -62,130 +69,115 @@ type BioAutographies = BioAutography[];
 export const BioAutographyList: BioAutographies = [
   {
     id: 1,
-    imgSrc: "/image/team/YDP_profile_pic_white.png",
-    name: "Mohamed Hyypia bin Rosmaini",
+    imgSrc: "/image/team/mt/MT_YDP.png",
+    name: "Alma' Aizat",
     position: "President",
     // facebook:"#",
-    instagram: "https://instagram.com/hyypia_48?igshid=MWZjMTM2ODFkZg==",
-    twitter: "https://x.com/hipiyuh",
-    linkedin:
-      "https://www.linkedin.com/in/mohamed-hyypia-bin-rosmaini-a2a5b6217",
+    instagram: "https://www.instagram.com/almaizt?igsh=MXh3b3dweXJhbng3NQ==",
+    // twitter: "#",
+    // linkedin:
+    //   "#",
     autobiography:
-      "I am a driven advocate for youth empowerment, sustainability, and diplomacy. My involvement in movements like Undi Sarawak, MyDiplomacy, and the Global Network Club at Universiti Malaya has provided valuable exposure to community issues. Additionally, representing Malaysia at international youth summits ignited my passion to pursue a diplomatic career in service to my country.",
+      "As a proud Sarawakian, serving my nation will be one of my greatest honors. Hi, I'm Awangku Alma'Aizat bin Awgku Mohamad Zainie, a second-year student in the Faculty of Built Environment. Taking on the role of president in the current tenure is both a privilege and a significant responsibility. My duty extends beyond representing Sarawakians on the main campus in KL—I am also committed to advocating for and uniting Sarawakians across other campuses. Through this role, I aim to strengthen our community, foster collaboration, and ensure that our voices are heard.",
   },
   {
     id: 2,
-    imgSrc: "/image/team/P.YDP_profile_pic_white.png",
-    name: "Mike Aryan Usa",
+    imgSrc: "/image/team/mt/MT_TYDP.png",
+    name: "Ilman",
     position: "Vice President",
     // facebook:"#",
-    instagram:
-      "https://www.instagram.com/mmikeohmm?igsh=MXVrYm94NHB0b2V6eA%3D%3D&utm_source=qr",
-    twitter:
-      "https://x.com/mikearyan28/status/1635126129496563714?s=46&t=KK876OyBean8zVewoHDWYg",
-    linkedin:
-      "https://www.linkedin.com/in/mike-aryan-808b30232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    autobiography:
-      "My name is Mike Aryan, and I am from Baram, Sarawak. Currently, I am a final-year student pursuing a degree in Arts History with a minor in Social Administration and Justice. Since my second year, I have been actively involved with Persatuan Mahasiswa Sarawak Universiti Malaya (PMSUM), where I now serve as Vice President. I am also a dedicated dancer for Tandak Sri Pegari, embracing and promoting my cultural heritage. My university experience includes participating in programs such as Kongres Mahasiswa and Parlimen Mahasiswa at University Malaya, as well as serving as a Pemudahcara Mahasiswa during UM WOW 2023/2024. In addition, I hold the role of Secretariat for the General Secretary of the University of Malaya Students' Union (UMSU), which has greatly contributed to my leadership and organizational development.",
+    // instagram:
+    //   "https://www.instagram.com/mmikeohmm?igsh=MXVrYm94NHB0b2V6eA%3D%3D&utm_source=qr",
+    // twitter:
+    //   "https://x.com/mikearyan28/status/1635126129496563714?s=46&t=KK876OyBean8zVewoHDWYg",
+    // linkedin:
+    //   "https://www.linkedin.com/in/mike-aryan-808b30232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    autobiography: "-",
   },
   {
     id: 3,
-    imgSrc: "/image/team/T.P.YDP_profile_pic_white.png",
-    name: "Praveen Kaur A/P Jit Singh",
-    position: "Deputy Vice President",
-    // facebook:"#",
-    instagram:
-      "https://www.instagram.com/veennnnnn25___/?utm_source=ig_web_button_share_sheet",
+    imgSrc: "/image/team/mt/MT_Setiausaha.png",
+    name: "Ailenna Thipong",
+    position: "Secretary",
+    // facebook: "#",
+    // instagram: "#",
     // twitter: "#",
-    linkedin:
-      "https://www.linkedin.com/in/praveen-kaur-a47714194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedin: "https://my.linkedin.com/in/ailenna-thipong-anak-laga-927485260",
     autobiography:
-      "I’m Praveen Kaur, a 24-year-old from Kuching, Sarawak, currently in my final year pursuing a degree in Early Childhood Education. I’ve been involved with PMSUM since 2021 during my first year, taking on roles such as AJK for the Academic and Intellectual Bureau and Head of Protocol for Festival Kenyalang in 2023. Right now, I’m the Deputy Vice President for PMSUM. Beyond campus, I’ve been actively involved in Lan Berambeh Anak Sarawak since 2022 and serve as an Exco of Multimedia for Sarawak Volunteers this year, contributing my skills in digital communication and outreach. I’m known for my happy-go-lucky attitude, always bringing positive energy to everything I do. With a passion for education and community service, I’m committed to making a meaningful impact through both my academic journey and extracurricular efforts. Ooooha!",
+      "I am Ailenna Thipong anak Laga, a Year 2 student majoring in Bachelor of Sport Management at Universiti Malaya. I served  as the Secretary of PMSUM for 2024/2025.",
   },
   {
     id: 4,
-    imgSrc: "/image/team/SU_profile_pic_white.png",
-    name: "Slavinna Ann Ak Johnny",
-    position: "Secretary",
-    facebook: "https://www.facebook.com/ann.slavinna?mibextid=ZbWKwL",
-    instagram: "https://www.instagram.com/sla.vinna_?igsh=bGEzcWx4eXh3amsz",
+    imgSrc: "/image/team/mt/MT_TS_Chairul.png",
+    name: "Chairul Azlan",
+    position: "Vice Secretary",
+    // facebook:"#",
+    // instagram:
+    //   "https://www.instagram.com/elleyssa_03?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     // twitter: "#",
     // linkedin: "#",
-    autobiography:
-      "I am Slavinna, people call me Vinna. I'm a 4th year student in Biotechnology. Been active in PMSUM since 2022 as both exco and participant. My friends know me as a cheerful, energetic and spontaneous person. I am someone who love joining projects for fun and experiences. Currently an active dancer of Tandak Sri Pegari, a traditional Sarawak dance group. My favourite project so far is Malam Bumi Kenyalang at USM as we represent UM for traditional dance.",
+    autobiography: "-",
   },
   {
     id: 5,
-    imgSrc: "/image/team/P.SU_profile_pic_white.png",
-    name: "Nurul Elleyssa Wong",
-    position: "Vice Secretary",
+    imgSrc: "/image/team/mt/MT_Bendahari_Josh.png",
+    name: "Josh Tiong Yong Yu",
+    position: "Treasurer",
     // facebook:"#",
-    instagram:
-      "https://www.instagram.com/elleyssa_03?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    instagram: "https://www.instagram.com/itsjoshtiong/",
     // twitter: "#",
     // linkedin: "#",
-    autobiography:
-      "Hello everyone My name is Nurul Elleyssa Wong, so you can call me Ell. I'm a 2nd year student of Bachelor of Science (Chemistry) with education. I have been active in being part of PMSUM since I was in Year 1 and have been chosen as Vice Secretary 2023/2024. Besides that, I'm a Deputy Director of SIPTA 3.0, a collaboration of PMSUM and PERMASA to allow more borneo students to actively participate in sports at Unisza this year. \n Besides being PMSUM, I am also actively involved in Palapes Darat UM and have been positioned as Corporal and Treasurer. Before joining PMSUM, I was representing Malaysia in Sunburst Youth Camp Singapore, which gave me big opportunities to share to the world how unique Malaysia is. Lastly, a little knowledge about me , I love to establish new clubs for students, as what I have did in 2023 I was establish my new Taekwondo club in Selangor Matriculation College, and I'm a Sarawak Taekwondo player.",
+    autobiography: "-",
   },
   {
     id: 6,
-    imgSrc: "/image/team/Bendahari_profile_pic_white.png",
-    name: "Erricson Petrus Ramping",
-    position: "Treasurer",
+    imgSrc: "/image/team/mt/MT_TB_Nur_Fatin.png",
+    name: "Nur Fatin Fatihah",
+    position: "Vice Treasurer",
     // facebook:"#",
-    // instagram: "#",
+    instagram: "https://www.instagram.com/fxtynf_?igsh=cmppZHdyY2ZuZGY4",
     // twitter: "#",
     // linkedin: "#",
     autobiography:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,",
-  },
-  {
-    id: 7,
-    imgSrc: "/image/team/P.Bendahari_profile_pic_white.png",
-    name: "Nurul Qurratu' Aini",
-    position: "Vice Treasurer",
-    // facebook:"#",
-    instagram:
-      "https://www.instagram.com/ninoisreading?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-    // twitter: "#",
-    linkedin: "https://www.linkedin.com/in/nurulqurratuaini/",
-    autobiography:
-      "Born and raised in Kuching, Sarawak, my dream is to own a secondhand bookstore in Kuching, with my mom's pastries, and a reading corner for the kids. Career wise, I wish to be a scholar, and a human activist, being the bridge between the minorities and the authorities. Being in PMSUM is one step toward everything that I want to achieve, and will forever be grateful for the experience I gained throughout my journey with PMSUM.",
+      "Hii everyone! I’m Nur Fatin Fatihah binti Halik, a first-year student at the Academy of Malay Studies. I’m currently serving as the Vice Treasurer of PMSUM 24/25. Excited to contribute and grow in this journey—let’s make an impact together.",
   },
 ];
 
 export const OBJECTIVES = [
   {
     title: "To Foster Unity and Friendship",
-    elaboration: "To cultivate a strong sense of unity, belonging, and mutual support among Sarawakian students through various social, cultural, and academic activities.",
-    icon_path: '/icon/icon_teamwork.svg',
-    icon_alt: 'Teamwork',
+    elaboration:
+      "To cultivate a strong sense of unity, belonging, and mutual support among Sarawakian students through various social, cultural, and academic activities.",
+    icon_path: "/icon/icon_teamwork.svg",
+    icon_alt: "Teamwork",
   },
   {
     title: "To Promote Sarawakian Culture",
     elaboration:
       "To preserve and celebrate the unique cultural heritage of Sarawak by organizing events, exhibitions, and collaborations that showcase the state's traditions, customs, and languages. ",
-    icon_path: '/icon/icon_loudspeaker.svg',
-    icon_alt: 'Loudspeaker',
+    icon_path: "/icon/icon_loudspeaker.svg",
+    icon_alt: "Loudspeaker",
   },
   {
     title: "To Provide Student Support and Welfare",
     elaboration:
       "To offer comprehensive support in areas such as academics, emotional well-being, and social integration, ensuring the holistic development and success of Sarawakian students at Universiti Malaya.",
-    icon_path: '/icon/icon_student.svg',
-    icon_alt: 'Student',
+    icon_path: "/icon/icon_student.svg",
+    icon_alt: "Student",
   },
   {
     title: "To Strengthen Ties with Sarawak",
-    elaboration: "To maintain strong connections with Sarawak’s state authorities, educational bodies, and local communities, creating networking and professional opportunities for students.",
-    icon_path: '/icon/icon_politics.svg',
-    icon_alt: 'Government',
+    elaboration:
+      "To maintain strong connections with Sarawak’s state authorities, educational bodies, and local communities, creating networking and professional opportunities for students.",
+    icon_path: "/icon/icon_politics.svg",
+    icon_alt: "Government",
   },
   {
     title: "To Encourage Leadership and Personal Growth",
-    elaboration:"To nurture leadership skills and encourage personal development among members by providing platforms for active participation in events, leadership roles, and community service initiatives",
-    icon_path: '/icon/icon_leadership.svg',
-    icon_alt: 'Leader',
+    elaboration:
+      "To nurture leadership skills and encourage personal development among members by providing platforms for active participation in events, leadership roles, and community service initiatives",
+    icon_path: "/icon/icon_leadership.svg",
+    icon_alt: "Leader",
   },
 ];
 
