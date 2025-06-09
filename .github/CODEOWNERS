@@ -1,0 +1,12 @@
+# CODEOWNERS defines which user is required to approve certain PR
+# Syntax: path @username
+# Syntax: path @repo/team-name
+
+# Require trinuro approval for main page
+/components/main_page @trinuro
+
+# Require ngyuheng2003 approval for activities page
+/components/activities @ngyuheng2003
+
+# Require zhi wei's approval for team page
+/components/team @HamZhiWei33
